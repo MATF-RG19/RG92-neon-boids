@@ -5,7 +5,7 @@
 		<Option title="NeonBoids"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug"/>
@@ -87,6 +87,18 @@
 		</Unit>
 		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets-none.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/../../../../usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\glfw3\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

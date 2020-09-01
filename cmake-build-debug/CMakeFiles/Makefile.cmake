@@ -26,6 +26,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/Compiler/GNU-C.cmake"
   "/snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/Compiler/GNU-CXX.cmake"
   "/snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/Compiler/GNU.cmake"
+  "/snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/FindOpenGL.cmake"
+  "/snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake"
+  "/snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageMessage.cmake"
   "/snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "/snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux-GNU-C.cmake"
   "/snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux-GNU-CXX.cmake"
@@ -33,6 +36,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/Platform/Linux.cmake"
   "/snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/Platform/UnixPaths.cmake"
   "/snap/clion/124/bin/cmake/linux/share/cmake-3.17/Modules/ProcessorCount.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Config.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3ConfigVersion.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets-none.cmake"
+  "/usr/lib/x86_64-linux-gnu/cmake/glfw3/glfw3Targets.cmake"
   )
 
 # The corresponding makefile is:

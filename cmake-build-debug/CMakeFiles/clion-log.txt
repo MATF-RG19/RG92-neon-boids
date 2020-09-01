@@ -1,4 +1,5 @@
 /snap/clion/124/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/rentorious/CLionProjects/NeonBoids
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/rentorious/CLionProjects/NeonBoids/cmake-build-debug
