@@ -1,5 +1,20 @@
 /snap/clion/124/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/rentorious/CLionProjects/NeonBoids
--- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
--- Configuring done
--- Generating done
--- Build files have been written to: /home/rentorious/CLionProjects/NeonBoids/cmake-build-debug
+CMake Error at CMakeLists.txt:10 (find_package):
+  By not providing "Findglew.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "glew", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "glew" with any of
+  the following names:
+
+    glewConfig.cmake
+    glew-config.cmake
+
+  Add the installation prefix of "glew" to CMAKE_PREFIX_PATH or set
+  "glew_DIR" to a directory containing one of the above files.  If "glew"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles/CMakeOutput.log".
