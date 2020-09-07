@@ -94,12 +94,12 @@ clean: CMakeFiles/NeonBoids.dir/clean
 CMakeFiles/NeonBoids.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target NeonBoids"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target NeonBoids"
 .PHONY : CMakeFiles/NeonBoids.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/NeonBoids.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/NeonBoids.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/NeonBoids.dir/rule

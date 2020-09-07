@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/rentorious/CLionProjects/NeonBoids/main.cpp" "/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles/NeonBoids.dir/main.cpp.o"
+  "/home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.cpp" "/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles/NeonBoids.dir/src/IndexBuffer.cpp.o"
+  "/home/rentorious/CLionProjects/NeonBoids/src/Renderer.cpp" "/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles/NeonBoids.dir/src/Renderer.cpp.o"
+  "/home/rentorious/CLionProjects/NeonBoids/src/VertexArray.cpp" "/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles/NeonBoids.dir/src/VertexArray.cpp.o"
+  "/home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.cpp" "/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles/NeonBoids.dir/src/VertexBuffer.cpp.o"
+  "/home/rentorious/CLionProjects/NeonBoids/src/main.cpp" "/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles/NeonBoids.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

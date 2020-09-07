@@ -143,32 +143,140 @@ NeonBoids/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/build
 .PHONY : NeonBoids/fast
 
-main.o: main.cpp.o
+src/IndexBuffer.o: src/IndexBuffer.cpp.o
 
-.PHONY : main.o
+.PHONY : src/IndexBuffer.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/IndexBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/IndexBuffer.cpp.o
+.PHONY : src/IndexBuffer.cpp.o
 
-main.i: main.cpp.i
+src/IndexBuffer.i: src/IndexBuffer.cpp.i
 
-.PHONY : main.i
+.PHONY : src/IndexBuffer.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/IndexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/IndexBuffer.cpp.i
+.PHONY : src/IndexBuffer.cpp.i
 
-main.s: main.cpp.s
+src/IndexBuffer.s: src/IndexBuffer.cpp.s
 
-.PHONY : main.s
+.PHONY : src/IndexBuffer.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/IndexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/IndexBuffer.cpp.s
+.PHONY : src/IndexBuffer.cpp.s
+
+src/Renderer.o: src/Renderer.cpp.o
+
+.PHONY : src/Renderer.o
+
+# target to build an object file
+src/Renderer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/Renderer.cpp.o
+.PHONY : src/Renderer.cpp.o
+
+src/Renderer.i: src/Renderer.cpp.i
+
+.PHONY : src/Renderer.i
+
+# target to preprocess a source file
+src/Renderer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/Renderer.cpp.i
+.PHONY : src/Renderer.cpp.i
+
+src/Renderer.s: src/Renderer.cpp.s
+
+.PHONY : src/Renderer.s
+
+# target to generate assembly for a file
+src/Renderer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/Renderer.cpp.s
+.PHONY : src/Renderer.cpp.s
+
+src/VertexArray.o: src/VertexArray.cpp.o
+
+.PHONY : src/VertexArray.o
+
+# target to build an object file
+src/VertexArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/VertexArray.cpp.o
+.PHONY : src/VertexArray.cpp.o
+
+src/VertexArray.i: src/VertexArray.cpp.i
+
+.PHONY : src/VertexArray.i
+
+# target to preprocess a source file
+src/VertexArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/VertexArray.cpp.i
+.PHONY : src/VertexArray.cpp.i
+
+src/VertexArray.s: src/VertexArray.cpp.s
+
+.PHONY : src/VertexArray.s
+
+# target to generate assembly for a file
+src/VertexArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/VertexArray.cpp.s
+.PHONY : src/VertexArray.cpp.s
+
+src/VertexBuffer.o: src/VertexBuffer.cpp.o
+
+.PHONY : src/VertexBuffer.o
+
+# target to build an object file
+src/VertexBuffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/VertexBuffer.cpp.o
+.PHONY : src/VertexBuffer.cpp.o
+
+src/VertexBuffer.i: src/VertexBuffer.cpp.i
+
+.PHONY : src/VertexBuffer.i
+
+# target to preprocess a source file
+src/VertexBuffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/VertexBuffer.cpp.i
+.PHONY : src/VertexBuffer.cpp.i
+
+src/VertexBuffer.s: src/VertexBuffer.cpp.s
+
+.PHONY : src/VertexBuffer.s
+
+# target to generate assembly for a file
+src/VertexBuffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/VertexBuffer.cpp.s
+.PHONY : src/VertexBuffer.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -179,9 +287,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... NeonBoids"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/IndexBuffer.o"
+	@echo "... src/IndexBuffer.i"
+	@echo "... src/IndexBuffer.s"
+	@echo "... src/Renderer.o"
+	@echo "... src/Renderer.i"
+	@echo "... src/Renderer.s"
+	@echo "... src/VertexArray.o"
+	@echo "... src/VertexArray.i"
+	@echo "... src/VertexArray.s"
+	@echo "... src/VertexBuffer.o"
+	@echo "... src/VertexBuffer.i"
+	@echo "... src/VertexBuffer.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

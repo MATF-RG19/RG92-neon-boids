@@ -82,7 +82,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/main.cpp">
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.cpp">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/Renderer.cpp">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/Renderer.h">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/VertexArray.cpp">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/VertexArray.h">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.cpp">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/main.cpp">
 			<Option target="NeonBoids"/>
 		</Unit>
 		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/CMakeLists.txt">

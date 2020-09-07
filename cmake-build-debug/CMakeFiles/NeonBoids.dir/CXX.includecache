@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/rentorious/CLionProjects/NeonBoids/main.cpp
-GLFW/glfw3.h
+/home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.cpp
+IndexBuffer.h
+/home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
+Renderer.h
+/home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
+
+/home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
+
+/home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
+GL/glew.h
+-
+csignal
 -
 
