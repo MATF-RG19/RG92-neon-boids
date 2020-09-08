@@ -100,6 +100,12 @@
 		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/Shader.h">
 			<Option target="NeonBoids"/>
 		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/Texture.cpp">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/Texture.h">
+			<Option target="NeonBoids"/>
+		</Unit>
 		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/VertexArray.cpp">
 			<Option target="NeonBoids"/>
 		</Unit>
@@ -119,6 +125,12 @@
 			<Option target="NeonBoids"/>
 		</Unit>
 		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/main.cpp">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/vendor/stb_image/stb_image.cpp">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/vendor/stb_image/stb_image.h">
 			<Option target="NeonBoids"/>
 		</Unit>
 		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/CMakeLists.txt">

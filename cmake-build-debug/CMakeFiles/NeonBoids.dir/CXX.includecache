@@ -6,21 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.cpp
-IndexBuffer.h
 /home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
-Renderer.h
-/home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
-
-/home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
-
-/home/rentorious/CLionProjects/NeonBoids/src/Renderer.cpp
-Renderer.h
-/home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
-IndexBuffer.h
-/home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
-iostream
--
 
 /home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
 GL/glew.h
@@ -34,47 +20,21 @@ IndexBuffer.h
 Shader.h
 /home/rentorious/CLionProjects/NeonBoids/src/Shader.h
 
-/home/rentorious/CLionProjects/NeonBoids/src/Shader.cpp
-Renderer.h
-/home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
-iostream
--
-fstream
--
-string
--
-sstream
--
-
 /home/rentorious/CLionProjects/NeonBoids/src/Shader.h
 string
 -
 unordered_map
 -
 
-/home/rentorious/CLionProjects/NeonBoids/src/VertexArray.cpp
-VertexArray.h
-/home/rentorious/CLionProjects/NeonBoids/src/VertexArray.h
+/home/rentorious/CLionProjects/NeonBoids/src/Texture.h
 Renderer.h
 /home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
-VertexBufferLayout.h
-/home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.h
 
 /home/rentorious/CLionProjects/NeonBoids/src/VertexArray.h
 VertexBuffer.h
 /home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
 
-/home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.cpp
-VertexBuffer.h
 /home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
-Renderer.h
-/home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
-
-/home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
-
-/home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.cpp
-VertexBufferLayout.h
-/home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.h
 
 /home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.h
 vector
@@ -101,4 +61,8 @@ VertexArray.h
 /home/rentorious/CLionProjects/NeonBoids/src/VertexArray.h
 VertexBufferLayout.h
 /home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.h
+Texture.h
+/home/rentorious/CLionProjects/NeonBoids/src/Texture.h
+fstream
+/home/rentorious/CLionProjects/NeonBoids/src/fstream
 

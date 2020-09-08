@@ -22,6 +22,15 @@ CMakeFiles/NeonBoids.dir/src/Shader.cpp.o
  /home/rentorious/CLionProjects/NeonBoids/src/Shader.h
  /home/rentorious/CLionProjects/NeonBoids/src/VertexArray.h
  /home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
+CMakeFiles/NeonBoids.dir/src/Texture.cpp.o
+ /home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
+ /home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
+ /home/rentorious/CLionProjects/NeonBoids/src/Shader.h
+ /home/rentorious/CLionProjects/NeonBoids/src/Texture.cpp
+ /home/rentorious/CLionProjects/NeonBoids/src/Texture.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexArray.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/stb_image/stb_image.h
 CMakeFiles/NeonBoids.dir/src/VertexArray.cpp.o
  /home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
  /home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
@@ -49,7 +58,11 @@ CMakeFiles/NeonBoids.dir/src/main.cpp.o
  /home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
  /home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
  /home/rentorious/CLionProjects/NeonBoids/src/Shader.h
+ /home/rentorious/CLionProjects/NeonBoids/src/Texture.h
  /home/rentorious/CLionProjects/NeonBoids/src/VertexArray.h
  /home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
  /home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.h
  /home/rentorious/CLionProjects/NeonBoids/src/main.cpp
+CMakeFiles/NeonBoids.dir/src/vendor/stb_image/stb_image.cpp.o
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/stb_image/stb_image.cpp
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/stb_image/stb_image.h

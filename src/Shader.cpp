@@ -129,6 +129,10 @@ void Shader::SetUniform1f(const std::string &name, float value) {
     GLCall(glUniform1f(GetUnifromLocation(name), value));
 }
 
+void Shader::SetUniform1i(const std::string &name, int value) {
+    GLCall(glUniform1i(GetUnifromLocation(name), value));
+}
+
 int Shader::GetUnifromLocation(const std::string &name) {
     // Check if cached
     if (m_UniformLocationCache.find(name) != m_UniformLocationCache.end()) {
