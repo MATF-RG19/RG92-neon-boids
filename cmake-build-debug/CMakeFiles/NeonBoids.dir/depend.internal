@@ -5,15 +5,51 @@ CMakeFiles/NeonBoids.dir/src/IndexBuffer.cpp.o
  /home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.cpp
  /home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
  /home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
+ /home/rentorious/CLionProjects/NeonBoids/src/Shader.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexArray.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
 CMakeFiles/NeonBoids.dir/src/Renderer.cpp.o
+ /home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
  /home/rentorious/CLionProjects/NeonBoids/src/Renderer.cpp
  /home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
-CMakeFiles/NeonBoids.dir/src/VertexBuffer.cpp.o
+ /home/rentorious/CLionProjects/NeonBoids/src/Shader.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexArray.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
+CMakeFiles/NeonBoids.dir/src/Shader.cpp.o
+ /home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
  /home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
+ /home/rentorious/CLionProjects/NeonBoids/src/Shader.cpp
+ /home/rentorious/CLionProjects/NeonBoids/src/Shader.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexArray.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
+CMakeFiles/NeonBoids.dir/src/VertexArray.cpp.o
+ /home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
+ /home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
+ /home/rentorious/CLionProjects/NeonBoids/src/Shader.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexArray.cpp
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexArray.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.h
+CMakeFiles/NeonBoids.dir/src/VertexBuffer.cpp.o
+ /home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
+ /home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
+ /home/rentorious/CLionProjects/NeonBoids/src/Shader.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexArray.h
  /home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.cpp
  /home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
+CMakeFiles/NeonBoids.dir/src/VertexBufferLayout.cpp.o
+ /home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
+ /home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
+ /home/rentorious/CLionProjects/NeonBoids/src/Shader.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexArray.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.cpp
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.h
 CMakeFiles/NeonBoids.dir/src/main.cpp.o
  /home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
  /home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
+ /home/rentorious/CLionProjects/NeonBoids/src/Shader.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexArray.h
  /home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
+ /home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.h
  /home/rentorious/CLionProjects/NeonBoids/src/main.cpp

@@ -1,7 +1,12 @@
 #pragma once
 
 #include <GL/glew.h>
+
 #include <csignal>
+
+#include "VertexArray.h"
+#include "IndexBuffer.h"
+#include "Shader.h"
 
 #define ASSERT(x) if (!(x)) raise(SIGTRAP);
 #define GLCall(x) \
@@ -12,3 +17,9 @@
 void GLClearError();
 
 bool GLLogCall(const char *function, const char *file, int line);
+
+class Renderer {
+public:
+    void Draw(const VertexArray &va, const IndexBuffer &ib, const Shader &shader);
+    void Clear() const;
+};

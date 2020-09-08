@@ -197,6 +197,33 @@ src/Renderer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/Renderer.cpp.s
 .PHONY : src/Renderer.cpp.s
 
+src/Shader.o: src/Shader.cpp.o
+
+.PHONY : src/Shader.o
+
+# target to build an object file
+src/Shader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/Shader.cpp.o
+.PHONY : src/Shader.cpp.o
+
+src/Shader.i: src/Shader.cpp.i
+
+.PHONY : src/Shader.i
+
+# target to preprocess a source file
+src/Shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/Shader.cpp.i
+.PHONY : src/Shader.cpp.i
+
+src/Shader.s: src/Shader.cpp.s
+
+.PHONY : src/Shader.s
+
+# target to generate assembly for a file
+src/Shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/Shader.cpp.s
+.PHONY : src/Shader.cpp.s
+
 src/VertexArray.o: src/VertexArray.cpp.o
 
 .PHONY : src/VertexArray.o
@@ -251,6 +278,33 @@ src/VertexBuffer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/VertexBuffer.cpp.s
 .PHONY : src/VertexBuffer.cpp.s
 
+src/VertexBufferLayout.o: src/VertexBufferLayout.cpp.o
+
+.PHONY : src/VertexBufferLayout.o
+
+# target to build an object file
+src/VertexBufferLayout.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/VertexBufferLayout.cpp.o
+.PHONY : src/VertexBufferLayout.cpp.o
+
+src/VertexBufferLayout.i: src/VertexBufferLayout.cpp.i
+
+.PHONY : src/VertexBufferLayout.i
+
+# target to preprocess a source file
+src/VertexBufferLayout.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/VertexBufferLayout.cpp.i
+.PHONY : src/VertexBufferLayout.cpp.i
+
+src/VertexBufferLayout.s: src/VertexBufferLayout.cpp.s
+
+.PHONY : src/VertexBufferLayout.s
+
+# target to generate assembly for a file
+src/VertexBufferLayout.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/VertexBufferLayout.cpp.s
+.PHONY : src/VertexBufferLayout.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -293,12 +347,18 @@ help:
 	@echo "... src/Renderer.o"
 	@echo "... src/Renderer.i"
 	@echo "... src/Renderer.s"
+	@echo "... src/Shader.o"
+	@echo "... src/Shader.i"
+	@echo "... src/Shader.s"
 	@echo "... src/VertexArray.o"
 	@echo "... src/VertexArray.i"
 	@echo "... src/VertexArray.s"
 	@echo "... src/VertexBuffer.o"
 	@echo "... src/VertexBuffer.i"
 	@echo "... src/VertexBuffer.s"
+	@echo "... src/VertexBufferLayout.o"
+	@echo "... src/VertexBufferLayout.i"
+	@echo "... src/VertexBufferLayout.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

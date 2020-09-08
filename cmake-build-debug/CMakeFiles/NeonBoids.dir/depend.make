@@ -4,16 +4,52 @@
 CMakeFiles/NeonBoids.dir/src/IndexBuffer.cpp.o: ../src/IndexBuffer.cpp
 CMakeFiles/NeonBoids.dir/src/IndexBuffer.cpp.o: ../src/IndexBuffer.h
 CMakeFiles/NeonBoids.dir/src/IndexBuffer.cpp.o: ../src/Renderer.h
+CMakeFiles/NeonBoids.dir/src/IndexBuffer.cpp.o: ../src/Shader.h
+CMakeFiles/NeonBoids.dir/src/IndexBuffer.cpp.o: ../src/VertexArray.h
+CMakeFiles/NeonBoids.dir/src/IndexBuffer.cpp.o: ../src/VertexBuffer.h
 
+CMakeFiles/NeonBoids.dir/src/Renderer.cpp.o: ../src/IndexBuffer.h
 CMakeFiles/NeonBoids.dir/src/Renderer.cpp.o: ../src/Renderer.cpp
 CMakeFiles/NeonBoids.dir/src/Renderer.cpp.o: ../src/Renderer.h
+CMakeFiles/NeonBoids.dir/src/Renderer.cpp.o: ../src/Shader.h
+CMakeFiles/NeonBoids.dir/src/Renderer.cpp.o: ../src/VertexArray.h
+CMakeFiles/NeonBoids.dir/src/Renderer.cpp.o: ../src/VertexBuffer.h
 
+CMakeFiles/NeonBoids.dir/src/Shader.cpp.o: ../src/IndexBuffer.h
+CMakeFiles/NeonBoids.dir/src/Shader.cpp.o: ../src/Renderer.h
+CMakeFiles/NeonBoids.dir/src/Shader.cpp.o: ../src/Shader.cpp
+CMakeFiles/NeonBoids.dir/src/Shader.cpp.o: ../src/Shader.h
+CMakeFiles/NeonBoids.dir/src/Shader.cpp.o: ../src/VertexArray.h
+CMakeFiles/NeonBoids.dir/src/Shader.cpp.o: ../src/VertexBuffer.h
+
+CMakeFiles/NeonBoids.dir/src/VertexArray.cpp.o: ../src/IndexBuffer.h
+CMakeFiles/NeonBoids.dir/src/VertexArray.cpp.o: ../src/Renderer.h
+CMakeFiles/NeonBoids.dir/src/VertexArray.cpp.o: ../src/Shader.h
+CMakeFiles/NeonBoids.dir/src/VertexArray.cpp.o: ../src/VertexArray.cpp
+CMakeFiles/NeonBoids.dir/src/VertexArray.cpp.o: ../src/VertexArray.h
+CMakeFiles/NeonBoids.dir/src/VertexArray.cpp.o: ../src/VertexBuffer.h
+CMakeFiles/NeonBoids.dir/src/VertexArray.cpp.o: ../src/VertexBufferLayout.h
+
+CMakeFiles/NeonBoids.dir/src/VertexBuffer.cpp.o: ../src/IndexBuffer.h
 CMakeFiles/NeonBoids.dir/src/VertexBuffer.cpp.o: ../src/Renderer.h
+CMakeFiles/NeonBoids.dir/src/VertexBuffer.cpp.o: ../src/Shader.h
+CMakeFiles/NeonBoids.dir/src/VertexBuffer.cpp.o: ../src/VertexArray.h
 CMakeFiles/NeonBoids.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.cpp
 CMakeFiles/NeonBoids.dir/src/VertexBuffer.cpp.o: ../src/VertexBuffer.h
 
+CMakeFiles/NeonBoids.dir/src/VertexBufferLayout.cpp.o: ../src/IndexBuffer.h
+CMakeFiles/NeonBoids.dir/src/VertexBufferLayout.cpp.o: ../src/Renderer.h
+CMakeFiles/NeonBoids.dir/src/VertexBufferLayout.cpp.o: ../src/Shader.h
+CMakeFiles/NeonBoids.dir/src/VertexBufferLayout.cpp.o: ../src/VertexArray.h
+CMakeFiles/NeonBoids.dir/src/VertexBufferLayout.cpp.o: ../src/VertexBuffer.h
+CMakeFiles/NeonBoids.dir/src/VertexBufferLayout.cpp.o: ../src/VertexBufferLayout.cpp
+CMakeFiles/NeonBoids.dir/src/VertexBufferLayout.cpp.o: ../src/VertexBufferLayout.h
+
 CMakeFiles/NeonBoids.dir/src/main.cpp.o: ../src/IndexBuffer.h
 CMakeFiles/NeonBoids.dir/src/main.cpp.o: ../src/Renderer.h
+CMakeFiles/NeonBoids.dir/src/main.cpp.o: ../src/Shader.h
+CMakeFiles/NeonBoids.dir/src/main.cpp.o: ../src/VertexArray.h
 CMakeFiles/NeonBoids.dir/src/main.cpp.o: ../src/VertexBuffer.h
+CMakeFiles/NeonBoids.dir/src/main.cpp.o: ../src/VertexBufferLayout.h
 CMakeFiles/NeonBoids.dir/src/main.cpp.o: ../src/main.cpp
 

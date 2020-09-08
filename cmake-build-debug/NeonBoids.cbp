@@ -94,6 +94,12 @@
 		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/Renderer.h">
 			<Option target="NeonBoids"/>
 		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/Shader.cpp">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/Shader.h">
+			<Option target="NeonBoids"/>
+		</Unit>
 		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/VertexArray.cpp">
 			<Option target="NeonBoids"/>
 		</Unit>
@@ -104,6 +110,12 @@
 			<Option target="NeonBoids"/>
 		</Unit>
 		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.cpp">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.h">
 			<Option target="NeonBoids"/>
 		</Unit>
 		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/main.cpp">
