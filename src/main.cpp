@@ -11,7 +11,11 @@
 #include "VertexArray.h"
 #include "VertexBufferLayout.h"
 #include "Texture.h"
-#include "fstream"
+
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+#include "imgui/imgui.h"
+#include "imgui/imgui_impl_glfw_gl3.h"
 
 int main() {
     GLFWwindow *window;
@@ -25,7 +29,7 @@ int main() {
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE); // or COMPAT
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(640, 480, "Hello World", nullptr, nullptr);
+    window = glfwCreateWindow(960, 540, "Hello World", nullptr, nullptr);
     if (!window) {
         glfwTerminate();
         return -1;
@@ -44,10 +48,10 @@ int main() {
     std::cout << glGetString(GL_VERSION) << std::endl;
     {
         float positions[] = {
-                -0.5f, -0.5f, 0.0f, 0.0f, // 0
-                0.5f, -0.5f, 1.0f, 0.0f, // 1
-                0.5f, 0.5f, 1.0f, 1.0f, // 2
-                -0.5f, 0.5f, 0.0f, 1.0f // 3
+                100.0f, 100.0f, 0.0f, 0.0f,    // 0
+                200.0f, 100.0f, 1.0f, 0.0f,    // 1
+                200.0f, 200.0f, 1.0f, 1.0f,    // 2
+                100.0f, 200.0f, 0.0f, 1.0f     // 3
         };
 
         unsigned int indices[] = {
@@ -59,10 +63,6 @@ int main() {
         GLCall(glEnable(GL_BLEND));
         GLCall(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA));
 
-        // Vertex array object
-        unsigned int vao;
-
-
         // VertexArray instance
         VertexArray va;
         // Vertex Buffer
@@ -72,10 +72,14 @@ int main() {
         layout.Push<float>(2);
         va.AddBuffer(vb, layout);
 
-
-
         // Index buffer
         IndexBuffer ib(indices, 6);
+
+        // GLM matrix
+        glm::mat4 proj = glm::ortho(0.0f, 960.0f, 0.0f, 540.0f, -1.0f, 1.0f);
+        glm::mat4 view = glm::translate(glm::mat4(1.0f), glm::vec3(-100, 0, 0));
+        glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3(200, 200, 0));
+        glm::mat4 mvp = proj * view * model;
 
         // Create shader
         Shader shader("res/shaders/Basic.shader");
@@ -88,6 +92,8 @@ int main() {
         Texture texture("res/textures/bas.png");
         texture.Bind();
         shader.SetUniform1i("u_Texture", 0);
+//        shader.SetUniform4f("u_Color", 0.8f, 0.3f, 0.8f, 1.0f);
+        shader.SetUniformMat4f("u_MVP", mvp);
 
         // Unbind all
         shader.Unbind();
@@ -96,6 +102,13 @@ int main() {
         ib.Unbind();
 
         Renderer renderer;
+
+        // ImGUI
+        // Create context and initalize
+        ImGui::CreateContext();
+        ImGui_ImplGlfwGL3_Init(window, true);
+        // Set dark theme
+        ImGui::StyleColorsDark();
 
         // Color channel variables for animating the rectangle
         float r = 0.0f;
@@ -106,10 +119,12 @@ int main() {
         while (!glfwWindowShouldClose(window)) {
             // Clear the screen
             renderer.Clear();
+            // Start new imgui frame
+            ImGui_ImplGlfwGL3_NewFrame();
             // bind shaders
             shader.Bind();
             // Set Rectangle color
-            shader.SetUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
+//            shader.SetUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
 
             // Draw
             renderer.Draw(va, ib, shader);
@@ -121,6 +136,10 @@ int main() {
                 increment = 0.05f;
             r += increment;
 
+            // Render ImGui
+            ImGui::Render();
+            ImGui_ImplGlfwGL3_RenderDrawData(ImGui::GetDrawData());
+
             /* Swap front and back buffers */
             glfwSwapBuffers(window);
             /* Poll for and process events */
@@ -128,6 +147,10 @@ int main() {
         }
 
     }
+    // Cleanup ImGui
+    ImGui_ImplGlfwGL3_Shutdown();
+    ImGui::DestroyContext();
+    // Terminate glfw
     glfwTerminate();
     return 0;
 }

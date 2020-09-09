@@ -2,7 +2,7 @@
 // Created by rentorious on 08/09/2020.
 //
 #include "Texture.h"
-#include "vendor/stb_image/stb_image.h"
+#include "stb_image/stb_image.h"
 
 Texture::Texture(const std::string &path) : m_RendererID(0), m_FilePath(path), m_LocalBuffer(nullptr), m_Width(0),
                                             m_Height(0), m_BPP(0) {
