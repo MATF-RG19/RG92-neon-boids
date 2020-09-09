@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/NeonBoids.dir/src/VertexBuffer.cpp.o"
   "CMakeFiles/NeonBoids.dir/src/VertexBufferLayout.cpp.o"
   "CMakeFiles/NeonBoids.dir/src/main.cpp.o"
+  "CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.o"
   "CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o"
   "CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.o"
   "CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o"

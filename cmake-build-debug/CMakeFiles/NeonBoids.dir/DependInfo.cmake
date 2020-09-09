@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.cpp" "/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles/NeonBoids.dir/src/VertexBuffer.cpp.o"
   "/home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.cpp" "/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles/NeonBoids.dir/src/VertexBufferLayout.cpp.o"
   "/home/rentorious/CLionProjects/NeonBoids/src/main.cpp" "/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles/NeonBoids.dir/src/main.cpp.o"
+  "/home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.cpp" "/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.o"
   "/home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui.cpp" "/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o"
   "/home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_demo.cpp" "/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.o"
   "/home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_draw.cpp" "/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o"

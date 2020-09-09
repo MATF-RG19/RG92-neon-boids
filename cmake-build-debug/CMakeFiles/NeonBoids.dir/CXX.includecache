@@ -1183,4 +1183,20 @@ imgui/imgui.h
 /home/rentorious/CLionProjects/NeonBoids/src/imgui/imgui.h
 imgui/imgui_impl_glfw_gl3.h
 /home/rentorious/CLionProjects/NeonBoids/src/imgui/imgui_impl_glfw_gl3.h
+tests/TestClearColor.h
+/home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.h
+
+/home/rentorious/CLionProjects/NeonBoids/src/tests/Test.h
+
+/home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.cpp
+TestClearColor.h
+/home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.h
+../Renderer.h
+/home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
+imgui/imgui.h
+/home/rentorious/CLionProjects/NeonBoids/src/tests/imgui/imgui.h
+
+/home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.h
+Test.h
+/home/rentorious/CLionProjects/NeonBoids/src/tests/Test.h
 

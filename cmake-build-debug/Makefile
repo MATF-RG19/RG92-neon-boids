@@ -359,6 +359,33 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/tests/TestClearColor.o: src/tests/TestClearColor.cpp.o
+
+.PHONY : src/tests/TestClearColor.o
+
+# target to build an object file
+src/tests/TestClearColor.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.o
+.PHONY : src/tests/TestClearColor.cpp.o
+
+src/tests/TestClearColor.i: src/tests/TestClearColor.cpp.i
+
+.PHONY : src/tests/TestClearColor.i
+
+# target to preprocess a source file
+src/tests/TestClearColor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.i
+.PHONY : src/tests/TestClearColor.cpp.i
+
+src/tests/TestClearColor.s: src/tests/TestClearColor.cpp.s
+
+.PHONY : src/tests/TestClearColor.s
+
+# target to generate assembly for a file
+src/tests/TestClearColor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.s
+.PHONY : src/tests/TestClearColor.cpp.s
+
 src/vendor/imgui/imgui.o: src/vendor/imgui/imgui.cpp.o
 
 .PHONY : src/vendor/imgui/imgui.o
@@ -527,6 +554,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/tests/TestClearColor.o"
+	@echo "... src/tests/TestClearColor.i"
+	@echo "... src/tests/TestClearColor.s"
 	@echo "... src/vendor/imgui/imgui.o"
 	@echo "... src/vendor/imgui/imgui.i"
 	@echo "... src/vendor/imgui/imgui.s"

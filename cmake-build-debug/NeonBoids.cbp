@@ -129,6 +129,12 @@
 		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/main.cpp">
 			<Option target="NeonBoids"/>
 		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.cpp">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.h">
+			<Option target="NeonBoids"/>
+		</Unit>
 		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imconfig.h">
 			<Option target="NeonBoids"/>
 		</Unit>
