@@ -1287,6 +1287,11 @@ CMakeFiles/NeonBoids.dir/src/main.cpp.o
  /home/rentorious/CLionProjects/NeonBoids/src/main.cpp
  /home/rentorious/CLionProjects/NeonBoids/src/tests/Test.h
  /home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.h
+CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.o
+ ../src/vendor/imgui/imconfig.h
+ ../src/vendor/imgui/imgui.h
+ /home/rentorious/CLionProjects/NeonBoids/src/tests/Test.cpp
+ /home/rentorious/CLionProjects/NeonBoids/src/tests/Test.h
 CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.o
  ../src/vendor/glm/common.hpp
  ../src/vendor/glm/detail/_fixes.hpp
@@ -1450,7 +1455,11 @@ CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.o
  /home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.cpp
  /home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.h
 CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imconfig.h
  /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui.cpp
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui.h
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_internal.h
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/stb_textedit.h
 CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.o
  /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imconfig.h
  /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui.h

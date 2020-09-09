@@ -259,6 +259,32 @@ CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.cpp -o CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.s
 
+CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.o: CMakeFiles/NeonBoids.dir/flags.make
+CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.o: ../src/tests/Test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.o -c /home/rentorious/CLionProjects/NeonBoids/src/tests/Test.cpp
+
+CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rentorious/CLionProjects/NeonBoids/src/tests/Test.cpp > CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.i
+
+CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rentorious/CLionProjects/NeonBoids/src/tests/Test.cpp -o CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.s
+
+CMakeFiles/NeonBoids.dir/src/tests/TestTexture2D.cpp.o: CMakeFiles/NeonBoids.dir/flags.make
+CMakeFiles/NeonBoids.dir/src/tests/TestTexture2D.cpp.o: ../src/tests/TestTexture2D.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/NeonBoids.dir/src/tests/TestTexture2D.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeonBoids.dir/src/tests/TestTexture2D.cpp.o -c /home/rentorious/CLionProjects/NeonBoids/src/tests/TestTexture2D.cpp
+
+CMakeFiles/NeonBoids.dir/src/tests/TestTexture2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeonBoids.dir/src/tests/TestTexture2D.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rentorious/CLionProjects/NeonBoids/src/tests/TestTexture2D.cpp > CMakeFiles/NeonBoids.dir/src/tests/TestTexture2D.cpp.i
+
+CMakeFiles/NeonBoids.dir/src/tests/TestTexture2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeonBoids.dir/src/tests/TestTexture2D.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rentorious/CLionProjects/NeonBoids/src/tests/TestTexture2D.cpp -o CMakeFiles/NeonBoids.dir/src/tests/TestTexture2D.cpp.s
+
 # Object files for target NeonBoids
 NeonBoids_OBJECTS = \
 "CMakeFiles/NeonBoids.dir/src/main.cpp.o" \
@@ -274,7 +300,9 @@ NeonBoids_OBJECTS = \
 "CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o" \
 "CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o" \
 "CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o" \
-"CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.o"
+"CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.o" \
+"CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.o" \
+"CMakeFiles/NeonBoids.dir/src/tests/TestTexture2D.cpp.o"
 
 # External object files for target NeonBoids
 NeonBoids_EXTERNAL_OBJECTS =
@@ -293,10 +321,12 @@ NeonBoids: CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o
 NeonBoids: CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o
 NeonBoids: CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o
 NeonBoids: CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.o
+NeonBoids: CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.o
+NeonBoids: CMakeFiles/NeonBoids.dir/src/tests/TestTexture2D.cpp.o
 NeonBoids: CMakeFiles/NeonBoids.dir/build.make
 NeonBoids: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
 NeonBoids: CMakeFiles/NeonBoids.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable NeonBoids"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable NeonBoids"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NeonBoids.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -359,6 +359,33 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/tests/Test.o: src/tests/Test.cpp.o
+
+.PHONY : src/tests/Test.o
+
+# target to build an object file
+src/tests/Test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.o
+.PHONY : src/tests/Test.cpp.o
+
+src/tests/Test.i: src/tests/Test.cpp.i
+
+.PHONY : src/tests/Test.i
+
+# target to preprocess a source file
+src/tests/Test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.i
+.PHONY : src/tests/Test.cpp.i
+
+src/tests/Test.s: src/tests/Test.cpp.s
+
+.PHONY : src/tests/Test.s
+
+# target to generate assembly for a file
+src/tests/Test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.s
+.PHONY : src/tests/Test.cpp.s
+
 src/tests/TestClearColor.o: src/tests/TestClearColor.cpp.o
 
 .PHONY : src/tests/TestClearColor.o
@@ -385,6 +412,33 @@ src/tests/TestClearColor.s: src/tests/TestClearColor.cpp.s
 src/tests/TestClearColor.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.s
 .PHONY : src/tests/TestClearColor.cpp.s
+
+src/tests/TestTexture2D.o: src/tests/TestTexture2D.cpp.o
+
+.PHONY : src/tests/TestTexture2D.o
+
+# target to build an object file
+src/tests/TestTexture2D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/tests/TestTexture2D.cpp.o
+.PHONY : src/tests/TestTexture2D.cpp.o
+
+src/tests/TestTexture2D.i: src/tests/TestTexture2D.cpp.i
+
+.PHONY : src/tests/TestTexture2D.i
+
+# target to preprocess a source file
+src/tests/TestTexture2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/tests/TestTexture2D.cpp.i
+.PHONY : src/tests/TestTexture2D.cpp.i
+
+src/tests/TestTexture2D.s: src/tests/TestTexture2D.cpp.s
+
+.PHONY : src/tests/TestTexture2D.s
+
+# target to generate assembly for a file
+src/tests/TestTexture2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NeonBoids.dir/build.make CMakeFiles/NeonBoids.dir/src/tests/TestTexture2D.cpp.s
+.PHONY : src/tests/TestTexture2D.cpp.s
 
 src/vendor/imgui/imgui.o: src/vendor/imgui/imgui.cpp.o
 
@@ -554,9 +608,15 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/tests/Test.o"
+	@echo "... src/tests/Test.i"
+	@echo "... src/tests/Test.s"
 	@echo "... src/tests/TestClearColor.o"
 	@echo "... src/tests/TestClearColor.i"
 	@echo "... src/tests/TestClearColor.s"
+	@echo "... src/tests/TestTexture2D.o"
+	@echo "... src/tests/TestTexture2D.i"
+	@echo "... src/tests/TestTexture2D.s"
 	@echo "... src/vendor/imgui/imgui.o"
 	@echo "... src/vendor/imgui/imgui.i"
 	@echo "... src/vendor/imgui/imgui.s"

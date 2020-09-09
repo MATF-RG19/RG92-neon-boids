@@ -1287,6 +1287,11 @@ CMakeFiles/NeonBoids.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/NeonBoids.dir/src/main.cpp.o: ../src/tests/Test.h
 CMakeFiles/NeonBoids.dir/src/main.cpp.o: ../src/tests/TestClearColor.h
 
+CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.o: ../src/vendor/imgui/imconfig.h
+CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.o: ../src/vendor/imgui/imgui.h
+CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.o: ../src/tests/Test.cpp
+CMakeFiles/NeonBoids.dir/src/tests/Test.cpp.o: ../src/tests/Test.h
+
 CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.o: ../src/vendor/glm/common.hpp
 CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.o: ../src/vendor/glm/detail/_fixes.hpp
 CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.o: ../src/vendor/glm/detail/_swizzle.hpp
@@ -1449,7 +1454,11 @@ CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.o: ../src/tests/Test.h
 CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.o: ../src/tests/TestClearColor.cpp
 CMakeFiles/NeonBoids.dir/src/tests/TestClearColor.cpp.o: ../src/tests/TestClearColor.h
 
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o: ../src/vendor/imgui/imconfig.h
 CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o: ../src/vendor/imgui/imgui.cpp
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o: ../src/vendor/imgui/imgui.h
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o: ../src/vendor/imgui/imgui_internal.h
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o: ../src/vendor/imgui/stb_textedit.h
 
 CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.o: ../src/vendor/imgui/imconfig.h
 CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.o: ../src/vendor/imgui/imgui.h

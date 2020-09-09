@@ -57,20 +57,34 @@ int main() {
         // Set dark theme
         ImGui::StyleColorsDark();
 
-        test::TestClearColor test;
+        test::Test *currentTest;
+        auto *testMenu = new test::TestMenu(currentTest);
+        currentTest = testMenu;
+
+        testMenu->RegisterTest<test::TestClearColor>("Clear Color");
+
 
         /* Loop until the user closes the window */
         while (!glfwWindowShouldClose(window)) {
             // Clear the screen
+            GLCall(glClearColor(0.0f, 0.0f, 0.0f, 1.0f));
             renderer.Clear();
-
-            test.OnUpdate(0.0f);
-            test.OnRender();
 
             // Start new imgui frame
             ImGui_ImplGlfwGL3_NewFrame();
 
-            test.OnImGuiRender();
+            if (currentTest) {
+                currentTest->OnUpdate(0.0f);
+                currentTest->OnRender();
+                ImGui::Begin("Test");
+                if (currentTest != testMenu && ImGui::Button("-<")) {
+                    delete currentTest;
+                    currentTest = testMenu;
+                }
+                currentTest->OnImGuiRender();
+
+                ImGui::End();
+            }
 
             // Render ImGui
             ImGui::Render();
@@ -82,6 +96,9 @@ int main() {
             glfwPollEvents();
         }
 
+        delete currentTest;
+        if (currentTest != testMenu)
+            delete testMenu;
     }
     // Cleanup ImGui
     ImGui_ImplGlfwGL3_Shutdown();

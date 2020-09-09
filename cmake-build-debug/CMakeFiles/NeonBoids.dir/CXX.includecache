@@ -1187,14 +1187,14 @@ tests/TestClearColor.h
 /home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.h
 
 /home/rentorious/CLionProjects/NeonBoids/src/tests/Test.h
-
-/home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.cpp
-TestClearColor.h
-/home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.h
-../Renderer.h
-/home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
-imgui/imgui.h
-/home/rentorious/CLionProjects/NeonBoids/src/tests/imgui/imgui.h
+functional
+-
+vector
+-
+string
+-
+iostream
+-
 
 /home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.h
 Test.h
