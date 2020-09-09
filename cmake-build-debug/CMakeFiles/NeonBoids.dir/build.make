@@ -194,6 +194,58 @@ CMakeFiles/NeonBoids.dir/src/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeonBoids.dir/src/Texture.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rentorious/CLionProjects/NeonBoids/src/Texture.cpp -o CMakeFiles/NeonBoids.dir/src/Texture.cpp.s
 
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.o: CMakeFiles/NeonBoids.dir/flags.make
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.o: ../src/vendor/imgui/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.o -c /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_demo.cpp
+
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_demo.cpp > CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.i
+
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_demo.cpp -o CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.s
+
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o: CMakeFiles/NeonBoids.dir/flags.make
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o: ../src/vendor/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o -c /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui.cpp
+
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui.cpp > CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.i
+
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui.cpp -o CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.s
+
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o: CMakeFiles/NeonBoids.dir/flags.make
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o: ../src/vendor/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o -c /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_draw.cpp
+
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_draw.cpp > CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.i
+
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_draw.cpp -o CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.s
+
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: CMakeFiles/NeonBoids.dir/flags.make
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: ../src/vendor/imgui/imgui_impl_glfw_gl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o -c /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_impl_glfw_gl3.cpp
+
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_impl_glfw_gl3.cpp > CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.i
+
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_impl_glfw_gl3.cpp -o CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.s
+
 # Object files for target NeonBoids
 NeonBoids_OBJECTS = \
 "CMakeFiles/NeonBoids.dir/src/main.cpp.o" \
@@ -204,7 +256,11 @@ NeonBoids_OBJECTS = \
 "CMakeFiles/NeonBoids.dir/src/VertexBufferLayout.cpp.o" \
 "CMakeFiles/NeonBoids.dir/src/Shader.cpp.o" \
 "CMakeFiles/NeonBoids.dir/src/vendor/stb_image/stb_image.cpp.o" \
-"CMakeFiles/NeonBoids.dir/src/Texture.cpp.o"
+"CMakeFiles/NeonBoids.dir/src/Texture.cpp.o" \
+"CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.o" \
+"CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o" \
+"CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o"
 
 # External object files for target NeonBoids
 NeonBoids_EXTERNAL_OBJECTS =
@@ -218,10 +274,14 @@ NeonBoids: CMakeFiles/NeonBoids.dir/src/VertexBufferLayout.cpp.o
 NeonBoids: CMakeFiles/NeonBoids.dir/src/Shader.cpp.o
 NeonBoids: CMakeFiles/NeonBoids.dir/src/vendor/stb_image/stb_image.cpp.o
 NeonBoids: CMakeFiles/NeonBoids.dir/src/Texture.cpp.o
+NeonBoids: CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.o
+NeonBoids: CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o
+NeonBoids: CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o
+NeonBoids: CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o
 NeonBoids: CMakeFiles/NeonBoids.dir/build.make
 NeonBoids: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
 NeonBoids: CMakeFiles/NeonBoids.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable NeonBoids"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rentorious/CLionProjects/NeonBoids/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable NeonBoids"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NeonBoids.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

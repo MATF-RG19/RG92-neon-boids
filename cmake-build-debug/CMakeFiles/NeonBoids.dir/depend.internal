@@ -1285,6 +1285,25 @@ CMakeFiles/NeonBoids.dir/src/main.cpp.o
  /home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
  /home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.h
  /home/rentorious/CLionProjects/NeonBoids/src/main.cpp
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui.cpp
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.o
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imconfig.h
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui.h
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_demo.cpp
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imconfig.h
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui.h
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_draw.cpp
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_internal.h
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/stb_rect_pack.h
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/stb_textedit.h
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/stb_truetype.h
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imconfig.h
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui.h
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_impl_glfw_gl3.cpp
+ /home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_impl_glfw_gl3.h
 CMakeFiles/NeonBoids.dir/src/vendor/stb_image/stb_image.cpp.o
  /home/rentorious/CLionProjects/NeonBoids/src/vendor/stb_image/stb_image.cpp
  /home/rentorious/CLionProjects/NeonBoids/src/vendor/stb_image/stb_image.h

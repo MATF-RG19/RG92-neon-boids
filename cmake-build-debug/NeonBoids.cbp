@@ -129,6 +129,39 @@
 		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/main.cpp">
 			<Option target="NeonBoids"/>
 		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imconfig.h">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui.cpp">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui.h">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_demo.cpp">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_draw.cpp">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_impl_glfw_gl3.cpp">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_impl_glfw_gl3.h">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/imgui_internal.h">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/stb_rect_pack.h">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/stb_textedit.h">
+			<Option target="NeonBoids"/>
+		</Unit>
+		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/vendor/imgui/stb_truetype.h">
+			<Option target="NeonBoids"/>
+		</Unit>
 		<Unit filename="/home/rentorious/CLionProjects/NeonBoids/src/vendor/stb_image/stb_image.cpp">
 			<Option target="NeonBoids"/>
 		</Unit>

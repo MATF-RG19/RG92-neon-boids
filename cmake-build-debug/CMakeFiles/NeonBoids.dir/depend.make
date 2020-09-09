@@ -1285,6 +1285,25 @@ CMakeFiles/NeonBoids.dir/src/main.cpp.o: ../src/VertexBuffer.h
 CMakeFiles/NeonBoids.dir/src/main.cpp.o: ../src/VertexBufferLayout.h
 CMakeFiles/NeonBoids.dir/src/main.cpp.o: ../src/main.cpp
 
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui.cpp.o: ../src/vendor/imgui/imgui.cpp
+
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.o: ../src/vendor/imgui/imconfig.h
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.o: ../src/vendor/imgui/imgui.h
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_demo.cpp.o: ../src/vendor/imgui/imgui_demo.cpp
+
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o: ../src/vendor/imgui/imconfig.h
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o: ../src/vendor/imgui/imgui.h
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o: ../src/vendor/imgui/imgui_draw.cpp
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o: ../src/vendor/imgui/imgui_internal.h
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o: ../src/vendor/imgui/stb_rect_pack.h
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o: ../src/vendor/imgui/stb_textedit.h
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_draw.cpp.o: ../src/vendor/imgui/stb_truetype.h
+
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: ../src/vendor/imgui/imconfig.h
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: ../src/vendor/imgui/imgui.h
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: ../src/vendor/imgui/imgui_impl_glfw_gl3.cpp
+CMakeFiles/NeonBoids.dir/src/vendor/imgui/imgui_impl_glfw_gl3.cpp.o: ../src/vendor/imgui/imgui_impl_glfw_gl3.h
+
 CMakeFiles/NeonBoids.dir/src/vendor/stb_image/stb_image.cpp.o: ../src/vendor/stb_image/stb_image.cpp
 CMakeFiles/NeonBoids.dir/src/vendor/stb_image/stb_image.cpp.o: ../src/vendor/stb_image/stb_image.h
 

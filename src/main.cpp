@@ -48,10 +48,10 @@ int main() {
     std::cout << glGetString(GL_VERSION) << std::endl;
     {
         float positions[] = {
-                100.0f, 100.0f, 0.0f, 0.0f,    // 0
-                200.0f, 100.0f, 1.0f, 0.0f,    // 1
-                200.0f, 200.0f, 1.0f, 1.0f,    // 2
-                100.0f, 200.0f, 0.0f, 1.0f     // 3
+                -50.0f, -50.0f, 0.0f, 0.0f,    // 0
+                50.0f, -50.0f, 1.0f, 0.0f,    // 1
+                50.0f, 50.0f, 1.0f, 1.0f,    // 2
+                -50.0f, 50.0f, 0.0f, 1.0f     // 3
         };
 
         unsigned int indices[] = {
@@ -77,9 +77,9 @@ int main() {
 
         // GLM matrix
         glm::mat4 proj = glm::ortho(0.0f, 960.0f, 0.0f, 540.0f, -1.0f, 1.0f);
-        glm::mat4 view = glm::translate(glm::mat4(1.0f), glm::vec3(-100, 0, 0));
-        glm::mat4 model = glm::translate(glm::mat4(1.0f), glm::vec3(200, 200, 0));
-        glm::mat4 mvp = proj * view * model;
+        glm::mat4 view = glm::translate(glm::mat4(1.0f), glm::vec3(0, 0, 0));
+        glm::vec3 translationA(200, 200, 0);
+        glm::vec3 translationB(400, 200, 0);
 
         // Create shader
         Shader shader("res/shaders/Basic.shader");
@@ -93,7 +93,6 @@ int main() {
         texture.Bind();
         shader.SetUniform1i("u_Texture", 0);
 //        shader.SetUniform4f("u_Color", 0.8f, 0.3f, 0.8f, 1.0f);
-        shader.SetUniformMat4f("u_MVP", mvp);
 
         // Unbind all
         shader.Unbind();
@@ -114,20 +113,34 @@ int main() {
         float r = 0.0f;
         float increment = 0.05f;
 
-
         /* Loop until the user closes the window */
         while (!glfwWindowShouldClose(window)) {
             // Clear the screen
             renderer.Clear();
+
             // Start new imgui frame
             ImGui_ImplGlfwGL3_NewFrame();
+
             // bind shaders
             shader.Bind();
-            // Set Rectangle color
-//            shader.SetUniform4f("u_Color", r, 0.3f, 0.8f, 1.0f);
 
-            // Draw
-            renderer.Draw(va, ib, shader);
+            // interactive Model Matrix
+            // 1st Draw
+            {
+                glm::mat4 model = glm::translate(glm::mat4(1.0f), translationA);
+                glm::mat4 mvp = proj * view * model;
+                shader.SetUniformMat4f("u_MVP", mvp);
+                // Draw 1st time
+                renderer.Draw(va, ib, shader);
+            }
+            // 2nd Draw
+            {
+                glm::mat4 model = glm::translate(glm::mat4(1.0f), translationB);
+                glm::mat4 mvp = proj * view * model;
+                shader.SetUniformMat4f("u_MVP", mvp);
+                // Draw 1st time
+                renderer.Draw(va, ib, shader);
+            }
 
             // Change the red channel and check values
             if (r > 1.0f)
@@ -135,6 +148,11 @@ int main() {
             else if (r < 0.0f)
                 increment = 0.05f;
             r += increment;
+
+            // Imgui window
+            ImGui::SliderFloat3("TranslationA", &translationA.x, 0.0f, 960.0f);
+            ImGui::SliderFloat3("TranslationB", &translationB.x, 0.0f, 960.0f);
+            ImGui::Text("Application average %.3f ms/frame (%.1f FPS)", 1000.0f / ImGui::GetIO().Framerate,ImGui::GetIO().Framerate);
 
             // Render ImGui
             ImGui::Render();
