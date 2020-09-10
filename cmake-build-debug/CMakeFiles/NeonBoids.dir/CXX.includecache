@@ -1114,8 +1114,6 @@ assert.h
 imgui_user.h
 ../src/vendor/imgui/imgui_user.h
 
-../src/vendor/imgui/imgui_impl_glfw_gl3.h
-
 /home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
 
 /home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
@@ -1154,38 +1152,6 @@ vector
 Renderer.h
 /home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
 
-/home/rentorious/CLionProjects/NeonBoids/src/main.cpp
-csignal
--
-iostream
--
-GL/glew.h
--
-GLFW/glfw3.h
--
-Renderer.h
-/home/rentorious/CLionProjects/NeonBoids/src/Renderer.h
-VertexBuffer.h
-/home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
-IndexBuffer.h
-/home/rentorious/CLionProjects/NeonBoids/src/IndexBuffer.h
-VertexArray.h
-/home/rentorious/CLionProjects/NeonBoids/src/VertexArray.h
-VertexBufferLayout.h
-/home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.h
-Texture.h
-/home/rentorious/CLionProjects/NeonBoids/src/Texture.h
-glm/glm.hpp
-/home/rentorious/CLionProjects/NeonBoids/src/glm/glm.hpp
-glm/gtc/matrix_transform.hpp
-/home/rentorious/CLionProjects/NeonBoids/src/glm/gtc/matrix_transform.hpp
-imgui/imgui.h
-/home/rentorious/CLionProjects/NeonBoids/src/imgui/imgui.h
-imgui/imgui_impl_glfw_gl3.h
-/home/rentorious/CLionProjects/NeonBoids/src/imgui/imgui_impl_glfw_gl3.h
-tests/TestClearColor.h
-/home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.h
-
 /home/rentorious/CLionProjects/NeonBoids/src/tests/Test.h
 functional
 -
@@ -1196,7 +1162,25 @@ string
 iostream
 -
 
-/home/rentorious/CLionProjects/NeonBoids/src/tests/TestClearColor.h
+/home/rentorious/CLionProjects/NeonBoids/src/tests/TestTexture2D.cpp
+TestTexture2D.h
+/home/rentorious/CLionProjects/NeonBoids/src/tests/TestTexture2D.h
+imgui/imgui.h
+/home/rentorious/CLionProjects/NeonBoids/src/tests/imgui/imgui.h
+glm/gtc/matrix_transform.hpp
+/home/rentorious/CLionProjects/NeonBoids/src/tests/glm/gtc/matrix_transform.hpp
+
+/home/rentorious/CLionProjects/NeonBoids/src/tests/TestTexture2D.h
+glm/glm.hpp
+-
 Test.h
 /home/rentorious/CLionProjects/NeonBoids/src/tests/Test.h
+../VertexBufferLayout.h
+/home/rentorious/CLionProjects/NeonBoids/src/VertexBufferLayout.h
+../VertexBuffer.h
+/home/rentorious/CLionProjects/NeonBoids/src/VertexBuffer.h
+../Texture.h
+/home/rentorious/CLionProjects/NeonBoids/src/Texture.h
+memory
+/home/rentorious/CLionProjects/NeonBoids/src/tests/memory
 
